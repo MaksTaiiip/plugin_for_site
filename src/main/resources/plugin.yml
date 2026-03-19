@@ -1,0 +1,4 @@
+name: azrisite
+version: '1.0-SNAPSHOT'
+main: org.lor.azrisite.QuestPlugin
+api-version: '1.21.4'

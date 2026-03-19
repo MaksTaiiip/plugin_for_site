@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="azrisite:jar">
+    <output-path>$PROJECT_DIR$/../../../Paper 1.21.4/plugins</output-path>
+    <root id="archive" name="azrisite.jar">
+      <element id="module-output" name="azrisite.main" />
+    </root>
+  </artifact>
+</component>

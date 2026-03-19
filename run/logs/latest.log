@@ -1,0 +1,91 @@
+[10:44:33] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.8+12-LTS-250; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[10:44:33] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) for Minecraft 1.21.4
+[10:44:34] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[10:44:34] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[10:44:34] [ServerMain/INFO]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
+[10:44:34] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
+[10:44:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[10:44:35] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
+[10:44:42] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 6603ms.
+[10:44:42] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'D:\Мої моди\test\azrisite\build\libs\azrisite-1.0-SNAPSHOT.jar'...
+[10:44:42] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'D:\Мої моди\test\azrisite\build\libs\azrisite-1.0-SNAPSHOT.jar' in 192ms.
+[10:44:42] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[10:44:42] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - azrisite (1.0-SNAPSHOT)
+[10:44:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:44:50] [ServerMain/INFO]: Loaded 1370 recipes
+[10:44:50] [ServerMain/INFO]: Loaded 1481 advancements
+[10:44:50] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[10:44:51] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 251,0ms
+[10:44:51] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[10:44:51] [Server thread/INFO]: Loading properties
+[10:44:51] [Server thread/INFO]: This server is running Paper version 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[10:44:51] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[10:44:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:44:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:44:52] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[10:44:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[10:44:52] [Server thread/INFO]: Default game type: SURVIVAL
+[10:44:52] [Server thread/INFO]: Generating keypair
+[10:44:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:44:52] [Server thread/INFO]: Using default channel type
+[10:44:52] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[10:44:52] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[10:44:52] [Server thread/INFO]: [azrisite] Loading server plugin azrisite v1.0-SNAPSHOT
+[10:44:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:44:52] [Server thread/INFO]: Preparing level "world"
+[10:44:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:44:53] [Server thread/INFO]: Preparing spawn area: 0%
+[10:44:54] [Server thread/INFO]: Preparing spawn area: 8%
+[10:44:54] [Server thread/INFO]: Time elapsed: 853 ms
+[10:44:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:44:54] [Server thread/INFO]: Preparing spawn area: 0%
+[10:44:54] [Server thread/INFO]: Time elapsed: 143 ms
+[10:44:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:44:54] [Server thread/INFO]: Preparing spawn area: 0%
+[10:44:54] [Server thread/INFO]: Time elapsed: 209 ms
+[10:44:54] [Server thread/INFO]: [azrisite] Enabling azrisite v1.0-SNAPSHOT
+[10:44:54] [Server thread/INFO]: [spark] Starting background profiler...
+[10:44:54] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[10:44:54] [Server thread/INFO]: Done preparing level "world" (1.904s)
+[10:44:54] [Server thread/INFO]: Running delayed init tasks
+[10:44:54] [Server thread/INFO]: Done (22.675s)! For help, type "help"
+[10:45:53] [User Authenticator #0/INFO]: UUID of player Azri__ is 4ed80094-8049-4a5b-89dd-b0ce7065da43
+[10:45:54] [Server thread/INFO]: Azri__ joined the game
+[10:45:54] [Server thread/INFO]: Azri__[/127.0.0.1:54936] logged in with entity id 50 at ([world]-36.69999998807907, 155.0, 41.88090084052794)
+[10:46:01] [Server thread/INFO]: Azri__ lost connection: Disconnected
+[10:46:01] [Server thread/INFO]: Azri__ left the game
+[10:46:06] [Server thread/INFO]: Stopping the server
+[10:46:07] [Server thread/INFO]: Stopping server
+[10:46:07] [Server thread/INFO]: [azrisite] Disabling azrisite v1.0-SNAPSHOT
+[10:46:07] [Server thread/INFO]: Saving players
+[10:46:07] [Server thread/INFO]: Saving worlds
+[10:46:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:46:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[10:46:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[10:46:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Saved 625 block chunks, 625 entity chunks, 0 poi chunks in world 'world' in 0,99s
+[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[10:46:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0,03s
+[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[10:46:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
+[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[10:46:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:46:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:46:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:46:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:46:08] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[10:46:08] [Server thread/INFO]: All I/O tasks to complete
+[10:46:08] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[10:46:08] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
