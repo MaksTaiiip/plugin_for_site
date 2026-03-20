@@ -1,91 +1,1047 @@
-[10:44:33] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.8+12-LTS-250; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[10:44:33] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) for Minecraft 1.21.4
-[10:44:34] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
-[10:44:34] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
-[10:44:34] [ServerMain/INFO]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
-[10:44:34] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
-[10:44:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[10:44:35] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
-[10:44:42] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 6603ms.
-[10:44:42] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'D:\Мої моди\test\azrisite\build\libs\azrisite-1.0-SNAPSHOT.jar'...
-[10:44:42] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'D:\Мої моди\test\azrisite\build\libs\azrisite-1.0-SNAPSHOT.jar' in 192ms.
-[10:44:42] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[10:44:42] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[01:47:33] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.8+12-LTS-250; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[01:47:33] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) for Minecraft 1.21.4
+[01:47:35] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[01:47:35] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[01:47:35] [ServerMain/INFO]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
+[01:47:37] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
+[01:47:38] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:47:38] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'D:\Мої моди\test\azrisite\build\libs\azrisite-1.0-SNAPSHOT.jar'...
+[01:47:40] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'D:\Мої моди\test\azrisite\build\libs\azrisite-1.0-SNAPSHOT.jar' in 1764ms.
+[01:47:40] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[01:47:40] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - azrisite (1.0-SNAPSHOT)
-[10:44:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[10:44:50] [ServerMain/INFO]: Loaded 1370 recipes
-[10:44:50] [ServerMain/INFO]: Loaded 1481 advancements
-[10:44:50] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[10:44:51] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 251,0ms
-[10:44:51] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[10:44:51] [Server thread/INFO]: Loading properties
-[10:44:51] [Server thread/INFO]: This server is running Paper version 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[10:44:51] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[10:44:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:44:51] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:44:52] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
-[10:44:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[10:44:52] [Server thread/INFO]: Default game type: SURVIVAL
-[10:44:52] [Server thread/INFO]: Generating keypair
-[10:44:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:44:52] [Server thread/INFO]: Using default channel type
-[10:44:52] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[10:44:52] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[10:44:52] [Server thread/INFO]: [azrisite] Loading server plugin azrisite v1.0-SNAPSHOT
-[10:44:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:44:52] [Server thread/INFO]: Preparing level "world"
-[10:44:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:44:53] [Server thread/INFO]: Preparing spawn area: 0%
-[10:44:54] [Server thread/INFO]: Preparing spawn area: 8%
-[10:44:54] [Server thread/INFO]: Time elapsed: 853 ms
-[10:44:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[10:44:54] [Server thread/INFO]: Preparing spawn area: 0%
-[10:44:54] [Server thread/INFO]: Time elapsed: 143 ms
-[10:44:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[10:44:54] [Server thread/INFO]: Preparing spawn area: 0%
-[10:44:54] [Server thread/INFO]: Time elapsed: 209 ms
-[10:44:54] [Server thread/INFO]: [azrisite] Enabling azrisite v1.0-SNAPSHOT
-[10:44:54] [Server thread/INFO]: [spark] Starting background profiler...
-[10:44:54] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[10:44:54] [Server thread/INFO]: Done preparing level "world" (1.904s)
-[10:44:54] [Server thread/INFO]: Running delayed init tasks
-[10:44:54] [Server thread/INFO]: Done (22.675s)! For help, type "help"
-[10:45:53] [User Authenticator #0/INFO]: UUID of player Azri__ is 4ed80094-8049-4a5b-89dd-b0ce7065da43
-[10:45:54] [Server thread/INFO]: Azri__ joined the game
-[10:45:54] [Server thread/INFO]: Azri__[/127.0.0.1:54936] logged in with entity id 50 at ([world]-36.69999998807907, 155.0, 41.88090084052794)
-[10:46:01] [Server thread/INFO]: Azri__ lost connection: Disconnected
-[10:46:01] [Server thread/INFO]: Azri__ left the game
-[10:46:06] [Server thread/INFO]: Stopping the server
-[10:46:07] [Server thread/INFO]: Stopping server
-[10:46:07] [Server thread/INFO]: [azrisite] Disabling azrisite v1.0-SNAPSHOT
-[10:46:07] [Server thread/INFO]: Saving players
-[10:46:07] [Server thread/INFO]: Saving worlds
-[10:46:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[10:46:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[10:46:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[10:46:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Saved 625 block chunks, 625 entity chunks, 0 poi chunks in world 'world' in 0,99s
-[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[10:46:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0,03s
-[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[10:46:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
-[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[10:46:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[10:46:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:46:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:46:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:46:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[10:46:08] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[10:46:08] [Server thread/INFO]: All I/O tasks to complete
-[10:46:08] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[10:46:08] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[01:47:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:47:50] [ServerMain/INFO]: Loaded 1370 recipes
+[01:47:50] [ServerMain/INFO]: Loaded 1481 advancements
+[01:47:50] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[01:47:50] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 442,4ms
+[01:47:50] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[01:47:50] [Server thread/INFO]: Loading properties
+[01:47:50] [Server thread/INFO]: This server is running Paper version 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[01:47:51] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:47:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:47:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:47:52] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[01:47:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[01:47:52] [Server thread/INFO]: Default game type: SURVIVAL
+[01:47:52] [Server thread/INFO]: Generating keypair
+[01:47:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:47:52] [Server thread/INFO]: Using default channel type
+[01:47:52] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[01:47:52] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[01:47:53] [Server thread/INFO]: [azrisite] Loading server plugin azrisite v1.0-SNAPSHOT
+[01:47:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:47:53] [Server thread/INFO]: Preparing level "world"
+[01:47:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:47:54] [Server thread/INFO]: Preparing spawn area: 0%
+[01:47:54] [Server thread/INFO]: Preparing spawn area: 6%
+[01:47:55] [Server thread/INFO]: Time elapsed: 980 ms
+[01:47:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:47:55] [Server thread/INFO]: Preparing spawn area: 0%
+[01:47:55] [Server thread/INFO]: Time elapsed: 93 ms
+[01:47:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:47:55] [Server thread/INFO]: Preparing spawn area: 0%
+[01:47:55] [Server thread/INFO]: Time elapsed: 70 ms
+[01:47:55] [Server thread/INFO]: [azrisite] Enabling azrisite v1.0-SNAPSHOT
+[01:47:55] [Server thread/INFO]: [azrisite] Config файл знаходиться: D:\Мої моди\test\azrisite\run\plugins\azrisite
+[01:47:55] [Server thread/INFO]: [azrisite] Зчитано plugin-secret: mySecretKey_azrisite_123
+[01:47:55] [Server thread/INFO]: [azrisite] Зчитано api-url: http://localhost:3000
+[01:47:55] [Server thread/INFO]: [azrisite] QuestPlugin увімкнено!
+[01:47:55] [Server thread/INFO]: [spark] Starting background profiler...
+[01:47:55] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[01:47:55] [Server thread/INFO]: Done preparing level "world" (2.083s)
+[01:47:55] [Server thread/INFO]: Running delayed init tasks
+[01:47:55] [Server thread/INFO]: Done (23.251s)! For help, type "help"
+[01:48:01] [User Authenticator #0/INFO]: UUID of player Azri__ is 4ed80094-8049-4a5b-89dd-b0ce7065da43
+[01:48:01] [Server thread/INFO]: Azri__ joined the game
+[01:48:01] [Server thread/INFO]: Azri__[/127.0.0.1:52069] logged in with entity id 55 at ([world]-22.95352837436175, 136.0, 33.530254774064346)
+[01:48:05] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:06] [Craft Scheduler Thread - 0 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:06] [Craft Scheduler Thread - 0 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:22] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:22] [Craft Scheduler Thread - 4 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:22] [Craft Scheduler Thread - 4 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:22] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:22] [Craft Scheduler Thread - 5 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:22] [Craft Scheduler Thread - 5 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:22] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:22] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:22] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:22] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:23] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:23] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:23] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:23] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:23] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:23] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:23] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:23] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:23] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:23] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:23] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:24] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:24] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:24] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:24] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:24] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:24] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:24] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:24] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:24] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:24] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:24] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:24] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:24] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:24] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:24] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:25] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:25] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:25] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:25] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:25] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:25] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:25] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:25] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:25] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:25] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:25] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:25] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:25] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:25] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:25] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:26] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:26] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:26] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:26] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:26] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:26] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:26] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:26] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:26] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:26] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:26] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:26] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:27] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:27] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:27] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:27] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:27] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:27] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:27] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:27] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:27] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:27] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:27] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:27] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:27] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:27] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:27] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:28] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:28] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:28] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:28] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:28] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:28] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:28] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:28] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:28] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:28] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:28] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:28] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:29] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:29] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:29] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:29] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:29] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:29] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:29] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:29] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:29] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:29] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:30] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:30] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:30] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:30] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:30] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:30] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:30] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:30] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:30] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:30] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:30] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:30] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:30] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:30] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:31] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:31] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:31] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:31] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:31] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:31] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:31] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:31] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:31] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:31] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:31] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:31] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:31] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:31] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:31] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:32] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:32] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:32] [Craft Scheduler Thread - 6 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:36] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:36] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:36] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:36] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:37] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:37] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:37] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:37] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:37] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:37] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:37] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:37] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:37] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:37] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:37] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:37] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:37] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:37] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:38] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:38] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:38] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:38] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:38] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:38] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:38] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:38] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:38] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:38] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:38] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:38] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:38] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:38] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:38] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:39] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:39] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:39] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:39] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:39] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:39] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:40] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:40] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:40] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:40] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:40] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:40] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:40] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:40] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:40] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:40] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:41] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:41] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:41] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:41] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:41] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:41] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:41] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:41] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:41] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:41] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:41] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:41] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:41] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:41] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:41] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:41] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:41] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:45] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:45] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:45] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:45] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:46] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:46] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:46] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:46] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:46] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:46] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:46] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:46] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:46] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:46] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:46] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:46] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:46] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:46] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:47] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:47] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:47] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:47] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:47] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:47] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:47] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:47] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:47] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:47] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:47] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:47] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:48] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:48] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:48] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:48] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:48] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:48] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:48] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:48] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:48] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:48] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:48] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:48] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:48] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:49] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:49] [Craft Scheduler Thread - 7 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:55] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:55] [Craft Scheduler Thread - 8 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:55] [Craft Scheduler Thread - 8 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:56] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:56] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:56] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:56] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:56] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:56] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:56] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:56] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:56] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:56] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:56] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:56] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:56] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:56] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:56] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:57] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:57] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:57] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:57] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:57] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:57] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:57] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:57] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:57] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:48:57] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:48:58] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:48:58] [Craft Scheduler Thread - 9 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:49:06] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:49:06] [Craft Scheduler Thread - 10 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:49:06] [Craft Scheduler Thread - 10 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:49:06] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:49:06] [Craft Scheduler Thread - 10 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:49:06] [Craft Scheduler Thread - 10 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:49:07] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:49:07] [Craft Scheduler Thread - 10 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:49:07] [Craft Scheduler Thread - 10 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:49:07] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:49:07] [Craft Scheduler Thread - 10 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:49:07] [Craft Scheduler Thread - 10 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:49:08] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:49:08] [Craft Scheduler Thread - 10 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:49:08] [Craft Scheduler Thread - 10 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:49:09] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:49:09] [Craft Scheduler Thread - 10 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:49:09] [Craft Scheduler Thread - 10 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:49:09] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:49:09] [Craft Scheduler Thread - 10 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:49:09] [Craft Scheduler Thread - 10 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:49:14] [Async Chat Thread - #1/INFO]: <Azri__> w
+[01:49:16] [Async Chat Thread - #1/INFO]: <Azri__> w
+[01:49:18] [Async Chat Thread - #1/INFO]: <Azri__> w
+[01:49:19] [Async Chat Thread - #1/INFO]: <Azri__> w
+[01:49:19] [Async Chat Thread - #1/INFO]: <Azri__> w
+[01:49:20] [Async Chat Thread - #1/INFO]: <Azri__> w
+[01:49:20] [Async Chat Thread - #1/INFO]: <Azri__> w
+[01:49:21] [Async Chat Thread - #1/INFO]: <Azri__> w
+[01:49:21] [Async Chat Thread - #1/INFO]: <Azri__> w
+[01:49:24] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:49:24] [Craft Scheduler Thread - 11 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:49:24] [Craft Scheduler Thread - 11 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":["/give %player% diamond 5"]}
+[01:49:24] [Server thread/INFO]: [azrisite] Виконую команду: /give Azri__ diamond 5
+[01:49:24] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/give Azri__ diamond 5<--[HERE]
+[01:50:07] [Server thread/INFO]: Azri__ issued server command: /give Azri__ diamond 5
+[01:50:07] [Server thread/INFO]: Azri__ has made the advancement [Diamonds!]
+[01:50:07] [Server thread/INFO]: [Azri__: Gave 5 [Diamond] to Azri__]
+[01:51:52] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:52] [Craft Scheduler Thread - 12 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:52] [Craft Scheduler Thread - 12 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:52] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:52] [Craft Scheduler Thread - 13 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:52] [Craft Scheduler Thread - 13 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:53] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=GRASS_BLOCK
+[01:51:53] [Craft Scheduler Thread - 14 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:53] [Craft Scheduler Thread - 14 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:53] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:53] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:53] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:53] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=GRASS_BLOCK
+[01:51:53] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:53] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:53] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:53] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:53] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:54] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:54] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:54] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:54] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:54] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:54] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:54] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:54] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:54] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:54] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:54] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:54] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:55] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:55] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:55] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:56] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:56] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:56] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:56] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:56] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:56] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:57] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:57] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:57] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:57] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:57] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:57] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:57] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:57] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:57] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:57] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:57] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:57] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:57] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:57] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:57] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:57] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:57] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:57] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:57] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:57] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:57] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:58] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:58] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:58] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:58] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:58] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:58] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:58] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:58] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:58] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:58] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:58] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:58] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:58] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:58] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:58] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:58] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:58] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:58] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:58] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:58] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:58] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:59] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:59] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:59] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:59] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:59] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:59] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:59] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:59] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:59] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:59] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:59] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:59] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:59] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:59] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:59] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:59] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:51:59] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:51:59] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:51:59] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:00] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:00] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:00] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:00] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:00] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:00] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:00] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:00] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:00] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:00] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:00] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:00] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:00] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:00] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:00] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:00] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:00] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:00] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:00] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:00] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:01] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:01] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:01] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:01] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:01] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:01] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:01] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:01] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:01] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:01] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:01] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:01] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:01] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:01] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:01] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:01] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:01] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:01] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:02] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:02] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:02] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:02] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:02] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:02] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:02] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:02] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:02] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:02] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:02] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:02] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:02] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=GRASS_BLOCK
+[01:52:02] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:02] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:02] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:02] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:02] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:02] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=GRASS_BLOCK
+[01:52:03] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:03] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:03] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:03] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:03] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:03] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:03] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:03] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:03] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:03] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:03] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:03] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:03] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:03] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:03] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:03] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:03] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:03] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:04] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:04] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:04] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:04] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:04] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:04] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:04] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:04] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:04] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:04] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:04] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:04] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:04] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:04] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:04] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:04] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:04] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:04] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:05] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:05] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:05] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:05] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:05] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:05] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:05] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:05] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:05] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:05] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:05] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:05] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:05] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:05] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:05] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:05] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:05] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:06] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:06] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:06] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:06] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:06] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:06] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:06] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:06] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:06] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:06] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:06] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:06] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:17] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:17] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:17] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:17] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:17] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:17] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:17] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:17] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:17] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:17] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:17] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:17] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:17] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:18] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:18] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:18] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:18] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:18] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:18] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:18] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:18] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:18] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:18] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:18] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:18] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:18] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:18] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:18] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:18] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:18] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:18] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:18] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:18] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:19] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:19] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:19] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:19] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:19] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:19] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:19] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:19] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:19] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:19] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:19] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:19] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:19] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:19] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:19] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:19] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:19] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:19] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:19] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:19] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:19] [Craft Scheduler Thread - 15 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:27] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:27] [Craft Scheduler Thread - 16 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:27] [Craft Scheduler Thread - 16 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:28] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:28] [Craft Scheduler Thread - 17 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:28] [Craft Scheduler Thread - 17 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:29] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:29] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:29] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:29] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:29] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:29] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:30] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:30] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:30] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:31] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:31] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:31] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:31] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:31] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:31] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:32] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:32] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:32] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:36] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:36] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:36] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:37] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:37] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:37] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:38] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:38] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:38] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:52:41] [Async Chat Thread - #3/INFO]: <Azri__> e
+[01:52:41] [Async Chat Thread - #3/INFO]: <Azri__> e
+[01:52:42] [Async Chat Thread - #3/INFO]: <Azri__> e
+[01:52:42] [Async Chat Thread - #3/INFO]: <Azri__> e
+[01:52:43] [Async Chat Thread - #3/INFO]: <Azri__> e
+[01:52:43] [Async Chat Thread - #3/INFO]: <Azri__> e
+[01:52:43] [Async Chat Thread - #3/INFO]: <Azri__> e
+[01:52:44] [Async Chat Thread - #3/INFO]: <Azri__> e
+[01:52:44] [Async Chat Thread - #3/INFO]: <Azri__> e
+[01:52:45] [Async Chat Thread - #4/INFO]: <Azri__> e
+[01:52:45] [Async Chat Thread - #4/INFO]: <Azri__> e
+[01:52:46] [Async Chat Thread - #4/INFO]: <Azri__> e
+[01:52:46] [Async Chat Thread - #4/INFO]: <Azri__> e
+[01:52:48] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:52:48] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:52:48] [Craft Scheduler Thread - 18 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":["/give %player% minecraft:diamond 5"]}
+[01:52:48] [Server thread/INFO]: [azrisite] Виконую команду: /give Azri__ minecraft:diamond 5
+[01:52:48] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/give Azri__ minecraft:diamond 5<--[HERE]
+[01:54:10] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:10] [Craft Scheduler Thread - 19 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:10] [Craft Scheduler Thread - 19 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:10] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:10] [Craft Scheduler Thread - 20 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:10] [Craft Scheduler Thread - 20 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:10] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:10] [Craft Scheduler Thread - 21 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:10] [Craft Scheduler Thread - 21 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:10] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:10] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:10] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:11] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:11] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:11] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:11] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:11] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:11] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:11] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:11] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:11] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:12] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:12] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:12] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:12] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:12] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:12] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:12] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:12] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:12] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:12] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:12] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:12] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:12] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:12] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:12] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:12] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:12] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:12] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:12] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:13] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:13] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:13] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:13] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:13] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:13] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:13] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:13] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:13] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:13] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:13] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:13] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:13] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:13] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:13] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:13] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:13] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:13] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:13] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:13] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:13] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:14] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:14] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:14] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:14] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:14] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:14] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:14] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:14] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:14] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:14] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:14] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:14] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:14] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:14] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:14] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:14] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:14] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:14] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:14] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:14] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:15] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:15] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:15] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:15] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:15] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:15] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:15] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:15] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:15] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:15] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:15] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:15] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:15] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:15] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:15] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:15] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:15] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:15] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:15] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:16] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:16] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:16] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:16] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:16] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:16] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:16] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:16] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:16] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:16] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:16] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:16] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:16] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:16] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:16] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:16] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:16] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:16] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:17] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:17] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:17] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:17] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:17] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:17] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:17] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:17] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:17] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:17] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:17] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:17] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:17] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:17] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:17] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:17] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:17] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:17] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:17] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:17] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:18] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:18] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:18] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:18] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:18] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:18] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:18] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:18] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:18] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:18] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:18] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:18] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:18] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:18] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:18] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:18] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:18] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:18] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:19] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:19] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:19] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:19] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:19] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:19] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:19] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:19] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:19] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:19] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:19] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:19] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:19] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:19] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:19] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:19] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:20] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:20] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:20] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:20] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:20] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:20] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:20] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:20] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:20] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:20] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:20] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:20] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:20] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:20] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:20] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:20] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:20] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:20] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:21] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:21] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:21] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:21] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:21] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:21] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:21] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:21] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:21] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:21] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:21] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:21] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:21] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:21] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:21] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:21] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:21] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:22] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:22] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:22] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:26] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:26] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:26] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:26] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:26] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:26] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:26] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:27] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:27] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:27] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:27] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:27] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:27] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:27] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:27] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:27] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:27] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:27] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:27] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:27] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:27] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:27] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:27] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:27] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:27] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:27] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:27] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:28] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:28] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:28] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:28] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:28] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:28] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:28] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:28] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:28] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:28] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:28] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:28] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:28] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:28] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:28] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:28] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:29] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:29] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:29] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:29] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:29] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:29] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:29] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:29] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:29] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:29] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:29] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:29] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:29] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:29] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:29] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:29] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:29] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:29] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:29] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:29] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:30] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:30] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:30] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:30] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:30] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:30] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:36] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:36] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:36] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:37] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:37] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:37] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:37] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:37] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:37] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:38] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:38] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:38] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:38] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:38] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:38] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:38] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:38] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:38] [Craft Scheduler Thread - 22 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":[]}
+[01:54:40] [Async Chat Thread - #5/INFO]: <Azri__> e
+[01:54:41] [Async Chat Thread - #5/INFO]: <Azri__> e
+[01:54:41] [Async Chat Thread - #5/INFO]: <Azri__> e
+[01:54:42] [Async Chat Thread - #5/INFO]: <Azri__> e
+[01:54:42] [Async Chat Thread - #5/INFO]: <Azri__> e
+[01:54:42] [Async Chat Thread - #5/INFO]: <Azri__> e
+[01:54:43] [Async Chat Thread - #5/INFO]: <Azri__> e
+[01:54:43] [Async Chat Thread - #5/INFO]: <Azri__> e
+[01:54:46] [Server thread/INFO]: [azrisite] Відправляємо запит: UUID=4ed80094-8049-4a5b-89dd-b0ce7065da43 блок=DIRT
+[01:54:46] [Craft Scheduler Thread - 23 - azrisite/INFO]: [azrisite] Відповідь від API: 200
+[01:54:46] [Craft Scheduler Thread - 23 - azrisite/INFO]: [azrisite] Тіло відповіді: {"success":true,"rewards":["give %player% minecraft:diamond 5"]}
+[01:54:46] [Server thread/INFO]: [azrisite] Виконую команду: give Azri__ minecraft:diamond 5
+[01:54:46] [Server thread/INFO]: Gave 5 [Diamond] to Azri__
+[02:01:26] [Server thread/INFO]: Azri__ lost connection: Disconnected
+[02:01:27] [Server thread/INFO]: Azri__ left the game
+[02:01:35] [Server thread/INFO]: Stopping the server
+[02:01:35] [Server thread/INFO]: Stopping server
+[02:01:35] [Server thread/INFO]: [azrisite] Disabling azrisite v1.0-SNAPSHOT
+[02:01:35] [Server thread/INFO]: [azrisite] QuestPlugin вимкнено.
+[02:01:35] [Server thread/INFO]: Saving players
+[02:01:35] [Server thread/INFO]: Saving worlds
+[02:01:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Saved 24 block chunks, 150 entity chunks, 0 poi chunks in world 'world' in 0,08s
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[02:01:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0,00s
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[02:01:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[02:01:35] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[02:01:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:01:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:01:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:01:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:01:35] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[02:01:35] [Server thread/INFO]: All I/O tasks to complete
+[02:01:35] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[02:01:35] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
